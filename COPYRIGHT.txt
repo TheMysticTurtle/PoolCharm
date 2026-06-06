@@ -1,4 +1,4 @@
-Pool Wizard Spellbook
+Pool Charm
 Copyright (c) 2026 TheMysticTurtle. All rights reserved.
 
 This software and its compiled output are proprietary and confidential.
