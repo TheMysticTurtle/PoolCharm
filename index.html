@@ -4,7 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#0d1f2d" />
-    <meta name="description" content="Pool chemistry calculator and reference guide. Get exact chemical doses for your pool in seconds." />
+
+    <!-- ── Primary SEO ─────────────────────────────────────────────────
+         Title + description are the two biggest search-ranking signals and
+         they're what shows up as the blue link + grey snippet on Google.
+         We lead with the strongest keyword phrase ("Free Pool Chemical
+         Calculator") and pair it with the guide angle so we rank for BOTH
+         "pool calculator" and "pool guide" searches.                     -->
+    <title>Free Pool Chemical Calculator &amp; Pool Care Guide | Pool Charm</title>
+    <meta
+      name="description"
+      content="A free pool chemical calculator and plain-English pool care guide — the pool guy in your pocket. Enter your pool test results and get clear, step-by-step dosing for chlorine, pH, alkalinity, stabilizer (CYA), calcium hardness, salt, and green-pool algae cleanup. No account needed."
+    />
+    <meta
+      name="keywords"
+      content="pool chemical calculator, pool calculator, pool guide, chlorine calculator, pool shock calculator, pH calculator, alkalinity calculator, cyanuric acid calculator, CYA calculator, calcium hardness, salt pool calculator, green pool, algae cleanup, pool treatment plan, pool dosing calculator, pool care guide"
+    />
+    <link rel="canonical" href="https://poolcharm.app/" />
+
+    <!-- ── Favicons / search-result logo ───────────────────────────────
+         THIS is what makes the wizard-drop logo show up next to the Google
+         result and in the browser tab. Browsers (and Google) probe
+         /favicon.ico at the site ROOT by default, so favicon.ico is copied
+         to public/ (served at /favicon.ico) AND referenced explicitly here.
+         The 192px PNG gives Google a crisp, high-res square to use.       -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/android-chrome-192x192.png" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+
+    <!-- ── Open Graph (Facebook, iMessage, Slack, WhatsApp, etc.) ───────
+         Controls how a shared poolcharm.app link looks: title, blurb, and
+         thumbnail. og:image must be an absolute URL and points at the wide
+         Pool Charm banner (the wizard-drop hero). Save that banner to
+         public/social-preview.png so it deploys to /social-preview.png.   -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Pool Charm" />
+    <meta property="og:title" content="Pool Charm — Free Pool Chemical Calculator &amp; Pool Care Guide" />
+    <meta
+      property="og:description"
+      content="Enter your pool test results and get a clear treatment plan for chlorine, pH, alkalinity, stabilizer, calcium, salt, and algae cleanup — plus a 9-chapter plain-English pool care guide. The pool guy in your pocket."
+    />
+    <meta property="og:url" content="https://poolcharm.app/" />
+    <meta property="og:image" content="https://poolcharm.app/social-preview.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1731" />
+    <meta property="og:image:height" content="909" />
+    <meta property="og:image:alt" content="Pool Charm — a friendly water-drop wizard, your free pool chemical calculator and pool care guide." />
+
+    <!-- ── Twitter / X card ─────────────────────────────────────────────
+         "summary_large_image" shows the wide banner edge-to-edge, which
+         suits the Pool Charm hero image.                                  -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pool Charm — Free Pool Chemical Calculator &amp; Pool Care Guide" />
+    <meta
+      name="twitter:description"
+      content="Enter your test results, get clear dosing for chlorine, pH, alkalinity, CYA, calcium, salt, and algae cleanup. The pool guy in your pocket — free, no account."
+    />
+    <meta name="twitter:image" content="https://poolcharm.app/social-preview.png" />
 
     <!-- ── iOS home-screen app settings ───────────────────────────────
          These tell Safari to launch the app full-screen (no address bar)
@@ -13,12 +71,36 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Pool Charm" />
 
-    <!-- iOS home screen icon — Safari uses this, not the manifest icons.
-         Create a 180×180 PNG and save it to public/icons/apple-touch-icon.png
-         See LAUNCH-GUIDE.md for how to generate icons for free.          -->
-    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
-
-    <title>Pool Charm</title>
+    <!-- ── Structured data (schema.org WebApplication) ──────────────────
+         Helps Google understand this page is a free web app / calculator,
+         which can earn a richer search listing. Keep the wording aligned
+         with the <title> and <meta description> above.                   -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Pool Charm",
+      "alternateName": "Pool Charm — Free Pool Chemical Calculator",
+      "url": "https://poolcharm.app/",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires JavaScript.",
+      "image": "https://poolcharm.app/icons/android-chrome-512x512.png",
+      "description": "Pool Charm is a free pool chemical calculator and plain-English pool care guide. It turns your pool test results into a clear treatment plan for chlorine, pH, alkalinity, stabilizer (CYA), calcium hardness, salt, and green-pool algae cleanup.",
+      "featureList": [
+        "Pool chemical dosing calculator",
+        "Chlorine, pH, alkalinity, calcium, CYA and salt balancing",
+        "Green-pool and algae shock calculator",
+        "9-chapter plain-English pool care guide",
+        "Works offline, no account required"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
 
     <!-- ── Google AdSense ──────────────────────────────────────────────
          Publisher loader. Required for AdSense site review and for any ad
@@ -31,12 +113,46 @@
       crossorigin="anonymous"
     ></script>
 
-    <script type="module" crossorigin src="/assets/index-D23STN8S.js"></script>
+    <script type="module" crossorigin src="/assets/index-BaeINUw9.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-LfyHBMgf.css">
   <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
   <body>
     <!-- React mounts here -->
     <div id="root"></div>
+
+    <!-- ── No-JavaScript / crawler fallback ─────────────────────────────
+         The app itself is a React single-page app, so without JS the #root
+         div is empty. This block gives search crawlers (and anyone with JS
+         off) real, keyword-rich, plain-English text describing what Pool
+         Charm does. React never renders inside <noscript>, so this never
+         shows to normal visitors.                                        -->
+    <noscript>
+      <main style="max-width:680px;margin:0 auto;padding:24px;font-family:system-ui,-apple-system,sans-serif;color:#0d1f2d;line-height:1.6;">
+        <h1>Pool Charm — Free Pool Chemical Calculator &amp; Pool Care Guide</h1>
+        <p>
+          Pool Charm is a free pool chemical calculator and pool care guide —
+          the pool guy in your pocket. Enter your pool test results and pool
+          size, and you get a clear, step-by-step treatment plan. No account
+          needed, and it works offline.
+        </p>
+        <p>The calculator gives you exact dosing instructions for:</p>
+        <ul>
+          <li>Chlorine — free chlorine and shock</li>
+          <li>pH</li>
+          <li>Total alkalinity</li>
+          <li>Stabilizer / cyanuric acid (CYA)</li>
+          <li>Calcium hardness</li>
+          <li>Salt (saltwater pools)</li>
+          <li>Green pool &amp; algae cleanup</li>
+        </ul>
+        <p>
+          It also includes The Spellbook: a nine-chapter, plain-English pool
+          care guide that explains pool water chemistry, filtration, algae,
+          stains, and salt systems in language anyone can follow.
+        </p>
+        <p><strong>This calculator needs JavaScript to run. Please enable JavaScript in your browser to use Pool Charm.</strong></p>
+      </main>
+    </noscript>
 
     <!-- Vite injects the bundled JS/CSS automatically.
          The PWA service worker registration is also injected here by vite-plugin-pwa. -->

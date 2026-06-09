@@ -1,0 +1,6 @@
+# Pool Charm — https://poolcharm.app/
+# Allow every search engine to crawl the whole site.
+User-agent: *
+Allow: /
+
+Sitemap: https://poolcharm.app/sitemap.xml
