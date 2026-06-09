@@ -178,7 +178,7 @@ subtitle: The full toolkit — effects, dosing, and every side effect
 
 ## 2.0 Master Effects Table
 
-Most pool calculators only show the target effect of each chemical. That's how people end up double-dipping and chasing chemistry in circles. This table shows **every effect** — primary and side effects — so you can plan doses with the full picture.
+Every pool chemical has a primary effect **and** side effects. This table lays out all of them — primary and side — so when you dose for one thing, you can see what else moves and plan around it instead of chasing your tail.
 
 ### All Effects — One Scoop or One Quart Per 10,000 Gallons
 
@@ -268,7 +268,7 @@ If you accidentally overshoot FC, use **sodium thiosulfate** (sold as "chlorine 
 
 ### Baking Soda — Raise Alkalinity
 
-Sodium bicarbonate. The exact same compound as the marked-up "alkalinity increaser" in pool stores — buy it in bulk at a warehouse store for a fraction of the price.
+Sodium bicarbonate. It's the same compound sold as "alkalinity increaser" — so you can buy plain baking soda in bulk at a warehouse store and save a lot.
 
 - **Alk raise:** ~3.8 ppm per scoop per 10,000 gal (~6.8 ppm per lb)
 - **pH:** Very slight rise. Negligible at normal doses — baking soda solution sits around pH 8.0.
@@ -416,7 +416,7 @@ These aren't part of routine balance — they're problem-solvers for specific si
 
 **When to use:** Recurring algae problems that resist proper chlorination, or when fill water tests very high in phosphates.
 
-**Reality check:** A well-chlorinated pool at proper CYA-to-FC ratio doesn't grow algae regardless of phosphate level. Phosphate removal is a supplement to good chlorination, not a substitute for it.
+**Worth knowing:** A well-chlorinated pool at the proper CYA-to-FC ratio won't grow algae regardless of phosphate level. Phosphate removal is a supplement to good chlorination, not a substitute for it.
 
 ### Enzymes
 
@@ -430,7 +430,7 @@ Three families. Match the tool to the algae type (see Chapter 4 for specifics).
 
 **Polyquat 60 (polymer algaecide):** The professional default. Broad-spectrum, no foaming, no copper, compatible with normal chlorine levels as a preventative. Initial dose ~12 oz per 10,000 gal; maintenance ~3 oz weekly. Wait until FC is below 3 ppm before adding.
 
-**Quaternary ammonium ("quats," "50% quat"):** Cheaper than Polyquat. Foams in water, less effective overall. Skip it unless cost is the only concern.
+**Quaternary ammonium ("quats," "50% quat"):** Cheaper than Polyquat, but it foams and is less effective overall — usually only worth it if cost is your main concern.
 
 **Copper-based:** Effective against stubborn black algae, but best treated as an escalation product. Major risk: blue-green staining on plaster and tile, blonde hair turns green, copper accumulates permanently. Use sparingly and always pair with a metal sequestrant.
 
