@@ -90,7 +90,7 @@ The higher your CYA, the more total free chlorine you need to maintain the same 
 | 50 ppm | ~4 ppm |
 | 80 ppm (saltwater target) | ~6 ppm |
 
-Above ~100 ppm CYA you hit chlorine lock territory — chlorine is so heavily bound it can't effectively sanitize regardless of dose. The only fix is a partial drain.
+Above ~100 ppm CYA, so much of your chlorine is bound up by the stabilizer that you'd need an impractically high FC to keep the same kill rate — and most test kits can't read CYA accurately up there anyway. The practical fix is a partial drain to bring CYA back down.
 
 :::safety
 **Combined Chlorine (CC)** is the "used up" form of chlorine — chloramines. Test for it: Total Chlorine minus Free Chlorine = CC. If CC is above 0.5 ppm, shock to breakpoint (~10x the CC reading).
